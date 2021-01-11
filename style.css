@@ -1,0 +1,103 @@
+/* Fonts and Colors */
+
+/* Design */
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card {
+    background: #DB5461;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-blue {
+    background: #593C8F;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
+}
+
+.btn-blue:hover {
+    background: #8EF9F3;
+}
+
+.fab {
+    padding: 20px;
+    color: white;
+}
+
+body {
+    background: #171738;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background: #593C8F;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
+}
+
+a:hover {
+    color: black;
+    background: #8EF9F3;
+}
+
+h1 {
+    font-size: 26pt;
+    color: #171738;
+}
+
+h2 {
+    font-size: 22pt;
+    color: #593C8F;
+}
+
+h3 {
+    font-size: 18pt;
+    color: #312F2F;
+}
+
+p {
+    text-align: justify;
+    font-size: 14pt;
+    color: #22181C;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 10%);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#arrow-up {
+    color: white;
+    padding: 10px 20px;
+    background: #593C8F;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 30%);
+}
+
+#arrow-up:hover {
+    background: #8EF9F3;
+    color: black;
+}
+
