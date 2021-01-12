@@ -1,4 +1,101 @@
-#sidebar ul {
+/* Sidebar Design */
+.sidebar {
+    background: rgba(0, 0, 0, 90%);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 120px;
+}
+
+.sidebar ul {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.sidebar a {
+    color: grey;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+/* Content Design */
+.main-content {
+    margin-left: 120px;
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 10%);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px grey;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-black {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-black:hover {
+    background: black;
+}
+
+.btn-black {
+    color: white;
+    text-decoration: none;
+}
+
+.inline-list {
+    padding-left: 0;
+}
+
+.inline-list li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.inline-list li i {
+    font-size: 40pt;
+}
+
+.inline-list li a {
+    color: grey;
+}
+
+.inline-list li a:hover {
+    color: black;
+}
+
+.big-icons i {
+    font-size: 40pt;
+    padding: 20px;
+}
+
+.big-icons p {
+    text-align: justify;
 }

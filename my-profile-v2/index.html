@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>My Profile</title>
-        <link rel="stylesheet" href=style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     </head>
     <body>
-        <div id="sidebar">
+        <div class="sidebar">
             <ul>
                 <li>
                     <a href="#profile">
@@ -15,16 +15,62 @@
                     </a>
                 </li>
                 <li>
-                    <a href="goals">
+                    <a href="#goals">
                         <i class="fas fa-cubes fa-2x"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="about">
+                    <a href="#about">
                         <i class="fas fa-book-open fa-2x"></i>
                     </a>
                 </li>
             </ul>
+        </div>
+        <div class="main-content">
+            <div class="container">
+                <div class="card text-center">
+                    <img id="profile" class="img-circle" src="../my-avatar.png">
+                    <h1>mathdothings</h1>
+                    <h2>Programmer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="https://www.github.com/mathdothings/" target="_blank" class="btn-black">See yourself</a>
+                </div>
+                <div class="card text-center">
+                    <ul class="inline-list">
+                        <li>
+                            <a href="https://www.facebook.com/mathdothings/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/mathdothings/" target="_blank">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mathdothings/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card text-center">
+                    <h2>My Objectives</h2>
+                    <table class="big-icons">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <i class="fab fa-git-square"></i>
+                                </td>
+                                <td>
+                                    <h3>Git</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
 </html>
