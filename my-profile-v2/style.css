@@ -125,6 +125,10 @@ body {
     background: rgba(255, 0, 0, 10%);
 }
 
+h1, h2, h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 p {
     color: black;
     font-size: 14pt;
@@ -143,8 +147,4 @@ h3 {
     color: #009900;
     font-family: 'Fjalla One', sans-serif;
     font-size: 16pt;
-}
-
-h1, h2, h3 {
-    font-family: 'Fjalla One', sans-serif;
 }
