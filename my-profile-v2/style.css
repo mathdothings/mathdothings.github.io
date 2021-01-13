@@ -133,16 +133,19 @@ p {
     color: black;
     font-size: 14pt;
 } 
+
 h1 {
     color: #001a00;
     font-family: 'Fjalla One', sans-serif;
     font-size: 24pt;
 }
+
 h2 {
     color: #004d00;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20pt;
 }
+
 h3 {
     color: #009900;
     font-family: 'Fjalla One', sans-serif;
