@@ -5,12 +5,14 @@
         <title>My Profile</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="sidebar">
             <ul>
                 <li>
-                    <a href="#profile">
+                    <a href="#">
                         <i class="fas fa-address-card fa-2x"></i>
                     </a>
                 </li>
@@ -26,10 +28,10 @@
                 </li>
             </ul>
         </div>
-        <div class="main-content">
+        <div class="main-content" id="header">
             <div class="container">
-                <div class="card text-center">
-                    <img id="profile" class="img-circle" src="../my-avatar.png">
+                <div class="card text-center" id="profile">
+                    <img class="img-circle" src="../my-avatar.png">
                     <h1>mathdothings</h1>
                     <h2>Programmer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -55,8 +57,8 @@
                     </ul>
                 </div>
                 <div class="card text-center">
-                    <h2>My Objectives</h2>
-                    <table class="big-icons">
+                    <h2 id="goals">My Objectives</h2>
+                    <table class="table-content">
                         <tbody>
                             <tr>
                                 <td>
@@ -67,8 +69,40 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <i class="fab fa-html5"></i>
+                                </td>
+                                <td>
+                                    <h3>HTML</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fab fa-css3-alt"></i>
+                                </td>
+                                <td>
+                                    <h3>CSS</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fab fa-js"></i>
+                                </td>
+                                <td>
+                                    <h3>JavaScript</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="card text-center end" id="footer">
+                    <h2 id="about">About this page</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#"><i class="fas fa-caret-square-up"></i></a>
                 </div>
             </div>
         </div>

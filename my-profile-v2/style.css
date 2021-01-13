@@ -38,11 +38,12 @@
 }
 
 .card {
+    background: white;
     border: 1px solid rgba(0, 0, 0, 10%);
     border-radius: 5px;
     box-shadow: 0 1px 2px grey;
-    padding: 20px;
     margin: 20px auto;
+    padding: 20px;
 }
 
 .img-circle {
@@ -91,11 +92,59 @@
     color: black;
 }
 
-.big-icons i {
-    font-size: 40pt;
+.table-content i {
+    font-size: 50pt;
     padding: 20px;
 }
 
-.big-icons p {
+.table-content p {
     text-align: justify;
+}
+
+.table-content td {
+    padding: 10px;
+    text-align: left;
+}
+
+.end p {
+    text-align: justify;
+}
+
+.end i {
+    color: grey;
+    font-size: 50pt;
+    padding: 20px;
+}
+
+.end i:hover {
+    color: black;
+}
+
+/* Fonts and Colors */
+body {
+    background: rgba(255, 0, 0, 10%);
+}
+
+p {
+    color: black;
+    font-size: 14pt;
+} 
+h1 {
+    color: #001a00;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24pt;
+}
+h2 {
+    color: #004d00;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20pt;
+}
+h3 {
+    color: #009900;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16pt;
+}
+
+h1, h2, h3 {
+    font-family: 'Fjalla One', sans-serif;
 }
