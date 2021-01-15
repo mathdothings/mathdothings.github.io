@@ -1,169 +1,169 @@
 /* Dashboard Layout */
 .wrapper {
-    background: rgba(175, 175, 175, 0.1);
-    border-radius: 2px;
-    margin: 20px auto;
-    padding: 20px;
-    width: 1000px;
+  background: rgba(175, 175, 175, 0.1);
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 1000px;
 }
 
-.left-container{
-    float: left;
-    min-height: 600px;
-    width: 35%;
+.left-container {
+  float: left;
+  min-height: 600px;
+  width: 35%;
 }
 
 .left-container .card:first-child {
-    min-height: 350px;
+  min-height: 350px;
 }
 
 .left-container .card:last-child {
-    min-height: 200px;
+  min-height: 200px;
 }
 
-.right-container{
-    float: right;
-    min-height: 600px;
-    width: 60%;
+.right-container {
+  float: right;
+  min-height: 600px;
+  width: 60%;
 }
 
 .right-container .card {
-    min-height: 530px;
+  min-height: 530px;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
-.footer{
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
+.footer {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
 }
 
 .footer i {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.share{
-    bottom: 10px;
-    position: absolute;
-    right: 0;
-    text-align: center;
+.share {
+  bottom: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
 }
 
-.img-profile{
-    border: 3px solid #cccccc;
-    height: 100px;
-    width: 100px;
+.img-profile {
+  border: 3px solid #ccc;
+  height: 100px;
+  width: 100px;
 }
 
-.goals{
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.6em;
+.goals {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
 }
 
-.goals img{
-    width: 80px;
+.goals img {
+  width: 80px;
 }
 
-.goals td{
-    padding: 10px;
+.goals td {
+  padding: 10px;
 }
 
 .goals i {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 /* First simple components */
-.card{
-    background: white;
-    border-radius: 4px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    padding: 20px;
+.card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .card:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
-.img-circle{
-    border-radius: 50%;
+.img-circle {
+  border-radius: 50%;
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
 .inline-list {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .inline-list li {
-    display: inline-block;
-    margin-top: 40px;
-    padding: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 20px;
 }
 
-.inline-list li i{
-    font-size: 50px;
+.inline-list li i {
+  font-size: 50px;
 }
 
-.btn-blue{
-    background-color: #3366FF;
-    border-radius: 4px;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
+.btn-blue {
+  background-color: #36f;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
 }
 
-.btn-blue:hover{
-    background-color: #DD5555;
-    color: white;
+.btn-blue:hover {
+  background-color: #d55;
+  color: white;
 }
 
-body{
-    background: #EBEBEB;
-    color: grey;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.6em;
+body {
+  background: #ebebeb;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
 }
 
 /* Fonts and Colors */
-h1, h2, h3{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+h3 {
+  font-size: 16px;
+  font-weight: 300;
 }
 
-h1{
-    color: #3366FF;
-    font-size: 22px;
+h1 h2 h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
-h2{
-    font-size: 18px;
-    font-weight: 300;
+h1 {
+  color: #36f;
+  font-size: 22px;
 }
 
-h3{
-    font-size: 16px;
-    font-weight: 300;
+h2 {
+  font-size: 18px;
+  font-weight: 300;
 }
 
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
 
-a{
-    color: #3366FF;
-    text-decoration: none;
+a {
+  color: #36f;
+  text-decoration: none;
 }
 
-a:hover{
-    color: #DD5555;
-    text-decoration: none;
+a:hover {
+  color: #d55;
+  text-decoration: none;
 }
