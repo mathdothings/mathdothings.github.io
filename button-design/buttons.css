@@ -1,0 +1,55 @@
+:root {
+  --light-gray: rgba(0, 0, 0, 20%);
+  --light-black: rgba(0, 0, 0, 70%);
+  --light-green: rgba(0, 255, 100, 40%);
+  --shadow-green: rgba(0, 255, 150, 100%);
+  --light-red: rgba(255, 0, 0, 80%);
+  --shadow-blue: rgba(0, 100, 255, 80%);
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-story {
+  border-radius: 40px;
+  border: 1px solid var(--light-gray);
+  color: var(--light-gray);
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.btn-story:hover {
+  border-color: var(--light-black);
+  color: var(--light-black);
+}
+
+.btn-start {
+  background-color: var(--light-green);
+  border-radius: 10px;
+  border: 1px solid var(--light-green);
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.btn-start:hover {
+  background-color: var(--shadow-green);
+  border-color: var(--shadow-green);
+  color: black;
+}
+
+.btn-play {
+  background-color: var(--light-red);
+  border-radius: 50%;
+  border: 1px solid var(--light-red);
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.btn-play:hover {
+  background-color: var(--shadow-blue);
+  border-color: white;
+  color: white;
+}
