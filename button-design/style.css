@@ -1,0 +1,33 @@
+:root {
+  --light-gray: rgba(0, 0, 0, 20%);
+  --light-black: rgba(0, 0, 0, 70%);
+}
+
+.container {
+  margin: 25% 25%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center p {
+  padding-bottom: 20px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-story {
+  border: 1px solid var(--light-gray);
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: var(--light-gray);
+}
+
+.btn-story:hover {
+  color: var(--light-black);
+  border-color: var(--light-black);
+}
