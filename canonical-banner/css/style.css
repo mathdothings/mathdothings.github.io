@@ -8,12 +8,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Source Serif Pro', serif;
-  border: 2px solid white;
   border-radius: 10px;
+  border: 2px solid white;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 800;
   margin: 10px auto;
-  text-shadow: 10px 10px white;
 }
 
 p {
