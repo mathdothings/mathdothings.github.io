@@ -1,0 +1,17 @@
+.btn-start {
+  background-color: darkgreen;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn-start:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
