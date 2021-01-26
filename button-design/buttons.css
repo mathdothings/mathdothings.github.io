@@ -5,6 +5,7 @@
   --shadow-green: rgba(0, 255, 150, 100%);
   --light-red: rgba(255, 0, 0, 80%);
   --shadow-blue: rgba(0, 100, 255, 80%);
+  --shadow-purple: rgba(50, 0, 255, 80%);
 }
 
 .btn {
@@ -15,7 +16,7 @@
   border-radius: 40px;
   border: 1px solid var(--light-gray);
   color: var(--light-gray);
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -29,7 +30,7 @@
   border-radius: 10px;
   border: 1px solid var(--light-green);
   color: white;
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -40,21 +41,23 @@
 }
 
 .btn-play {
-  background-color: var(--light-red);
   border-radius: 50%;
-  border: 1px solid var(--light-red);
-  color: black;
-  padding: 30px;
+  color: var(--light-red);
   text-decoration: none;
-  font-size: 22px;
+  font-size: 50px;
+  margin-top: 10px;
 }
 
 .btn-play:hover {
-  background-color: var(--shadow-blue);
   border-color: white;
-  color: white;
+  color: var(--shadow-blue);
 }
 
-.btn-play > i {
-  font-size: 20px;
+.btn-send {
+  color: var(--light-black);
+  font-size: 40px;
+}
+
+.btn-send:hover {
+  color: var(--shadow-purple);
 }
