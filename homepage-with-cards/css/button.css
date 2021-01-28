@@ -1,0 +1,18 @@
+.btn {
+  margin: 5px;
+}
+
+.btn-start {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: green;
+}
+
+.btn-start:hover {
+  border-color: green;
+  background-color: black;
+  color: white;
+}
