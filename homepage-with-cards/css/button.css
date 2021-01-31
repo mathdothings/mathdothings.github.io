@@ -1,18 +1,21 @@
 .btn {
-  margin: 5px;
+  margin: 1em;
 }
 
-.btn-start {
+.btn-code {
   background-color: white;
-  border: 1px solid black;
+  border-radius: 10px;
+  border: 1px solid #990;
+  color: #995;
+  display: inline-block;
+  font-size: 2em;
   padding: 10px;
-  border-radius: 5px;
   text-decoration: none;
-  color: green;
 }
 
-.btn-start:hover {
-  border-color: green;
-  background-color: black;
+.btn-code:hover {
+  background-color: #cca300;
+  border: 1px solid white;
   color: white;
+  font-weight: 500;
 }

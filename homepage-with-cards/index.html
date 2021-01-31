@@ -2,43 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Homepage &amp Cards</title>
+    <title>Home &amp Cards</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   </head>
+
   <body>
     <div class="banner">
       <div class="banner-content text-center">
-        <h1>Improve your programming skills!</h1>
-        <p>When you understand the matrix, everything becomes easier than before.</p>
-        <p><a class="btn btn-start" href="#">Start!</a></p>
+        <h1>Improving my web programming skills</h1>
+        <h2>By learning HTML and CSS I'm becoming good with making websites.</h2>
+        <a class="btn btn-code text-center" href="#">Let's code!</a>
       </div>
     </div>
-    <div class="middle-message text-center">
-      <h2>What is your next challenge?</h2>
-    </div>
-    <div class="card-layout text-center">
-      <div class="card text-center">
-        <div class="card-banner1">
-          <div class="card-content">
-            <h3>HTML 5</h3>
+    <div class="container">
+      <h2 class="text-center">What is your next challenge?</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-body" style="background-image: url('../images/html.png');">
+            <span class="card-category">HTML</span>
+            <div class="card-description">
+              <h2>The web's block!</h2>
+              <p>It helps out how to markup webpages</p>
+            </div>
+            <img class="card-user avatar avatar-large" src="../images/cat.jpg">
+            <a class="card-link" href="#" ></a>
           </div>
-        </div>
-      </div>
-      <div class="card text-center">
-        <div class="card-banner2">
-          <div class="card-content">
-            <h3>CSS 3</h3>
+          <div class="card-footer">
+            <p>Posted on 31/01/21</p>
+            <div class="controls">
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-heart"></i></a>
+              <a href="#"><i class="fa fa-share"></i></a>
             </div>
           </div>
         </div>
-      <div class="card text-center">
-        <div class="card-banner3">
-          <div class="card-content">
-            <h3>CSS 3</h3>
+        <div class="card">
+          <div class="card-body" style="background-image: url('../images/css.png');">
+            <span class="card-category">CSS</span>
+            <div class="card-description">
+              <h2>The web's stylist</h2>
+              <p>It can make things look beautiful</p>
+            </div>
+            <img class="card-user avatar avatar-large" src="../images/cat.jpg">
+            <a class="card-link" href="#" ></a>
+          </div>
+          <div class="card-footer">
+            <p>Posted on 31/01/21</p>
+            <div class="controls">
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-heart"></i></a>
+              <a href="#"><i class="fa fa-share"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body" style="background-image: url('../images/js.png');">
+            <span class="card-category">JavaScript</span>
+            <div class="card-description">
+              <h2>The web's brain</h2>
+              <p>This is what put logic on things</p>
+            </div>
+            <img class="card-user avatar avatar-large" src="../images/cat.jpg">
+            <a class="card-link" href="#" ></a>
+          </div>
+          <div class="card-footer">
+            <p>Posted on 31/01/21</p>
+            <div class="controls">
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-heart"></i></a>
+              <a href="#"><i class="fa fa-share"></i></a>
             </div>
           </div>
         </div>
       </div>
-     </body>
+    </div>
+  </body>
 </html>
-
