@@ -1,0 +1,19 @@
+.tabs {
+  background-color: rgba(255, 255, 255, 10%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  line-height: 4vh;
+  margin: auto;
+  width: 50%;
+}
+
+a {
+  font-weight: 100;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 30%);
+}

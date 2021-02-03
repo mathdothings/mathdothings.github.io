@@ -1,0 +1,9 @@
+.container {
+  background-color: rgba(0, 100, 00, 90%);
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+header {
+  line-height: 5vh;
+}
