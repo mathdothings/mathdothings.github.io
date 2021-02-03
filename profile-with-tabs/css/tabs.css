@@ -1,19 +1,43 @@
 .tabs {
-  background-color: rgba(255, 255, 255, 10%);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 15%);
+  border-radius: 10px 10px 0 0;
   display: flex;
   justify-content: center;
   line-height: 4vh;
   margin: auto;
-  width: 50%;
+  width: max-content;
+}
+
+.tabs span {
+  font-weight: 600;
 }
 
 a {
   font-weight: 100;
-  padding: 20px;
+  padding: 10px 60px;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: rgba(255, 255, 255, 30%);
+  background-color: rgba(0, 0, 0, 20%);
+}
+
+.first-tab {
+  background-color: white;
+  border-radius: 10px 0 0 0;
+  color: rgba(0, 0, 0, 30%);
+  font-weight: 400;
+}
+
+.first-tab span {
+  color: black;
+  font-weight: 600;
+}
+
+.first-tab:hover {
+  background-color: rgba(255, 255, 255, 80%);
+}
+
+.last-tab {
+  border-radius: 0 10px 0 0;
 }
