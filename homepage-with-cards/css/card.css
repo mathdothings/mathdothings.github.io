@@ -97,3 +97,9 @@
 .card-footer .controls i:hover {
   opacity: 0.4;
 }
+
+.card span, 
+h2,
+p {
+  color: rgba(100, 0, 100, 70%);
+}
