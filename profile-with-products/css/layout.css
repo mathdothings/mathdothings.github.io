@@ -1,0 +1,32 @@
+.header-container {
+  background-color: rgba(0, 150, 170, 90%);
+  padding-top: 10px;
+}
+
+.header-content .tabs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-content .tab {
+  background-color: rgba(255, 255, 255, 50%);
+}
+
+.header-content a {
+  padding: 0 80px;
+  line-height: 5vh;
+  display: inline-block;
+}
+
+.tab:hover {
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.first-tab {
+  border-radius: 10px 0 0 0;
+}
+
+.last-tab {
+  border-radius: 0 10px 0 0;
+}
