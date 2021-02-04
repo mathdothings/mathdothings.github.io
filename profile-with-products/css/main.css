@@ -1,0 +1,37 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content a {
+  padding: 10px;
+  font-size: 1em;
+  margin-right: 1vw;
+  background-color: rgba(0, 150, 170, 70%);
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.main-content a:hover {
+  background-color: rgba(0, 150, 170, 100%);
+  font-weight: 700;
+}
+
+.music-thumbnail {
+  width: 15vw;
+  height: 9vh;
+  border-radius: 30px;
+}
+
+.main-content p {
+  font-weight: 700;
+  color: black;
+  margin: auto;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.main-content i {
+  color: rgba(0, 150, 170, 100%);
+  font-size: 2em;
+}
