@@ -1,11 +1,11 @@
 * {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1px;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 0.5fr 1.5fr;
 }
 
 .left {
@@ -16,64 +16,64 @@
 
 .right {
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 40%);
   border-radius: 0px 10px 10px 0;
+  border: 1px solid rgba(0, 0, 0, 40%);
 }
 
 .right p {
-	text-align:justify;
+  text-align: justify;
 }
 
 .avatar {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin: 10px;
+  border-radius: 50%;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .text-justify {
-	text-align: justify;
+  text-align: justify;
 }
 
 .card {
-	margin: 0 10px;
+  margin: 0 10px;
 }
 
 .side-icons {
-	font-size: 3em;
-	padding: 10px;
-	text-align: center;
-	color: white;
+  color: white;
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
 }
 
 .side-icons-right {
-	font-size: 3em;
-	padding: 10px;
-	text-align: center;
-	color: rgba(0, 100, 200, 85%);;
+  color: rgba(0, 100, 200, 85%);
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
 }
 
 hr {
-	width: 80%;
-	color: white;
+  color: white;
+  width: 80%;
 }
 
 .name-card {
-	font-size: 3em;
-	padding: 30px;
+  font-size: 3em;
+  padding: 30px;
 }
 
 .exp {
-	padding: 10px;
-	border: 1px solid rgba(0, 0, 0, 10%);
-	margin-left: 10px;
-	border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 10%);
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .last-card {
-	margin-top: 30px;
+  margin-top: 30px;
 }
