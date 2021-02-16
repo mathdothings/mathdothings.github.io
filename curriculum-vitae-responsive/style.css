@@ -12,11 +12,33 @@
   .grid-container {
     grid-template-columns: 1fr;
   }
+
+  h3 {
+    display: none;
+  }
+
+  .mobile-exp {
+    display: inline-block;
+    width: 100%;
+    color: rgba(0, 100, 200, 85%);
+  }
+
+  .mobile-show {
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 580px) {
   .grid-container {
     grid-template-columns: 0.5fr 1.5fr;
+  }
+
+  h3 {
+    display: inline;
+  }
+
+  .mobile-exp {
+    display: none;
   }
 }
 
