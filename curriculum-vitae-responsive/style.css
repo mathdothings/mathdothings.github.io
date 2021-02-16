@@ -8,7 +8,7 @@
   grid-template-columns: 0.5fr 1.5fr;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 359px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
