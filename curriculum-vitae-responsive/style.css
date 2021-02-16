@@ -1,0 +1,91 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 0.5fr 1.5fr;
+}
+
+@media (min-width: 300px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: 0.5fr 1.5fr;
+  }
+}
+
+.left {
+  background-color: rgba(0, 100, 200, 85%);
+  border-radius: 10px 0 0 10px;
+  color: white;
+}
+
+.right {
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(0, 0, 0, 40%);
+}
+
+.right p {
+  text-align: justify;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card {
+  margin: 0 10px;
+}
+
+.side-icons {
+  color: white;
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
+}
+
+.side-icons-right {
+  color: rgba(0, 100, 200, 85%);
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
+}
+
+hr {
+  color: white;
+  width: 80%;
+}
+
+.name-card {
+  font-size: 3em;
+  padding: 30px;
+}
+
+.exp {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 10%);
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.last-card {
+  margin-top: 30px;
+}
