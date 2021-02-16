@@ -8,13 +8,13 @@
   grid-template-columns: 0.5fr 1.5fr;
 }
 
-@media (min-width: 359px) {
+@media screen and (min-width: 360px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .grid-container {
     grid-template-columns: 0.5fr 1.5fr;
   }
