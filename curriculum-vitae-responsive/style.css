@@ -29,7 +29,7 @@
 .right {
   background-color: white;
   border-radius: 0 10px 10px 0;
-  border: 1px solid rgba(0, 0, 0, 40%);
+  border: 1px solid rgba(0, 100, 200, 85%);
 }
 
 .right p {
@@ -81,7 +81,7 @@ hr {
 
 .exp {
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 10%);
+  border: 1px solid rgba(0, 100, 200, 80%);
   margin-left: 10px;
   padding: 10px;
 }
