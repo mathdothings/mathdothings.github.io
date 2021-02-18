@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #313447;
-  background-image: url("../images/science.jpg");
+  background-image: url("https://github.com/mathdothings/mathdothings.github.io/raw/master/images/science.jpg");
   background-size: 100vw 100vh;
   display: flex;
   height: 95vh;
