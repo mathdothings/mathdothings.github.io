@@ -5,6 +5,8 @@ body {
   font-family: 'Truculenta', sans-serif;
 }
 
+/* Basic Styles */
+
 header {
   background-color: #313447;
   background-image: url("https://github.com/mathdothings/mathdothings.github.io/raw/master/images/science.jpg");
@@ -41,13 +43,17 @@ h3 {
   font-size: 1.5em;
 }
 
+h4 {
+  font-size: 1.3em;
+}
+
 p {
   font-size: 1.2em;
   font-weight: 900;
 }
 
 table {
-  border: 2px solid yellow;
+  border: 1px dashed yellow;
   border-radius: 10px;
   padding: 1vw 1vh;
   display: flex;
@@ -68,6 +74,8 @@ td span {
   border-radius: 10px;
   padding-bottom: 5px;
 }
+
+/* Countries */
 
 .usa {
   padding-right: 80vw;
@@ -125,6 +133,8 @@ td span {
   color: #ec6419;
 }
 
+/* Page Layout */
+
 .text-justify {
   text-align: justify;
 }
@@ -149,6 +159,6 @@ td span {
 
 .article-body {
   background-color: #313447;
-  padding: 10px;
+  padding: 1em;
   color: white;
 }
