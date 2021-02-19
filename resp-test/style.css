@@ -1,0 +1,31 @@
+body {
+      color: blue;
+      margin: 0;
+      padding: 0;
+    }
+    
+.grid-container {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 5vw 15vw 45vw 35vw;
+  grid-template-rows: 1fr;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.column3 {
+  background-color: yellow;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.column7 {
+  background-color: yellow;
+  border-radius: 10px;
+  width: 80%;
+  margin: 10px;
+}
