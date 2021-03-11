@@ -69,6 +69,10 @@ td span {
   font-size: 1.2em;
 }
 
+.resp-table {
+  overflow-x: auto;
+}
+
 .progress-bar {
   background-color: yellow;
   border-radius: 10px;
