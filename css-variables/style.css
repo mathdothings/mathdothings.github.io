@@ -1,0 +1,55 @@
+@import "variables.css";
+
+body {
+  font-size: 2em;
+}
+
+div {
+  border-radius: 10px;
+}
+
+hr {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card1 {
+  background-color: var(--light-red);
+  background-size: cover;
+  color: white;
+  float: left;
+  width: 25%;
+  height: var(--card-height);
+  margin-right: 10px;
+  padding: 10px;
+  border: 4px dashed goldenrod;
+}
+
+.card2 {
+  background-color: var(--light-green);
+  color: white;
+  float: left;
+  width: 25%;
+  height: var(--card-height);
+  margin-right: 10px;
+  padding: 10px;
+  border: 4px dashed goldenrod;
+}
+
+.card3 {
+  background-color: var(--light-blue);
+  color: white;
+  float: left;
+  width: calc(50% - 20px - 10px * 6 - 4 * 2 * 3px);
+
+  /* need to do this calculation because the 'cards'
+   * have they layout made with float divs instead
+   * with flexbox or grid */
+
+  height: var(--card-height);
+  padding: 10px;
+  border: 4px dashed goldenrod;
+}
