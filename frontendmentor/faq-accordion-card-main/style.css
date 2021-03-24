@@ -1,0 +1,33 @@
+@import "colors.css";
+
+.bg {
+  background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.content-container {
+  background-color: var(--light-grayish-blue);
+  width: 90%;
+  height: 70%;
+}
+
+#woman-illustration {
+  margin-top: -33%;
+}
+
+#bg-illustration {
+  margin-top: -30%;
+  margin-left: 9%;
+}
