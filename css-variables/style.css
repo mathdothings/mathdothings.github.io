@@ -9,7 +9,7 @@ div {
 }
 
 hr {
-  color: white;
+  border: 1px dotted white;
 }
 
 .text-center {
