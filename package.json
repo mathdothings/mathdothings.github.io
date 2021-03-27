@@ -1,0 +1,32 @@
+{
+  "name": "mathdothings.github.io",
+  "version": "1.0.0",
+  "description": "This repo is just for keep track of my learning progress.",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathdothings/mathdothings.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathdothings/mathdothings.github.io/issues"
+  },
+  "homepage": "https://github.com/mathdothings/mathdothings.github.io#readme"
+}

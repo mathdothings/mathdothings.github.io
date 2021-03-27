@@ -34,3 +34,7 @@ let seconds = dateSecons;
 console.log("Today is: ", day);
 console.log("Current time is: " + hours + ":" + minutes + ":" + seconds);
 
+function hiddenSon () {
+  let element = document.getElementsByClassName("son");
+  element[0].style.display = "none";
+}
