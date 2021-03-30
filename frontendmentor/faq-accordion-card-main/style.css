@@ -10,6 +10,7 @@ body {
   padding: 0;
   font-size: var(--base-font-size);
   font-family: 'Kumbh Sans', sans-serif;
+  color: rgba(0 , 0, 0, 70%);
 }
 
 .flex-container {
@@ -20,19 +21,71 @@ body {
 }
 
 .content-container {
-  background-color: var(--light-grayish-blue);
-  width: 90%;
+  background-color: white;
+  width: 85%;
   height: auto;
   border-radius: 20px;
 }
 
 #woman-illustration {
-  margin-top: -47%;
+  margin-top: -51%;
+  margin-left: -7%;
 }
 
 #bg-illustration {
   margin-top: -30%;
-  margin-left: 9%;
+  margin-left: 3%;
+}
+
+#answer1 {
+  display: none;
+}
+
+#answer2 {
+  display: none;
+}
+
+#answer3 {
+  display: none;
+}
+
+#answer4 {
+  display: none;
+}
+
+#icon-down1 {
+  position: relative;
+  left: 12%;
+  top: 0;
+}
+
+#icon-down2 {
+  position: relative;
+  left: 12%;
+  top: 0;
+}
+
+#icon-down3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#icon-down4 {
+  position: relative;
+  left: 12%;
+  top: 0;
+}
+
+#icon-down5 {
+  position: relative;
+  left: 12%;
+  top: 0;
+}
+
+hr {
+  color: rgba(0, 0, 0, 10%);
+  margin: 5% 0;
 }
 
 /* Text Styles */
@@ -55,4 +108,13 @@ body {
 .attribution {
   padding-top: 1.5em;
   line-height: 1.7em;
+}
+
+p {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 3em;
+  color: black;
 }
