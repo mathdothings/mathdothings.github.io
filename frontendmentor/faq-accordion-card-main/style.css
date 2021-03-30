@@ -37,6 +37,31 @@ body {
   margin-left: 3%;
 }
 
+#question1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#question2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#question3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#question4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#question5 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #answer1 {
   display: none;
 }
@@ -53,39 +78,48 @@ body {
   display: none;
 }
 
+#answer5 {
+  display: none;
+}
+
 #icon-down1 {
-  position: relative;
-  left: 12%;
-  top: 0;
+  width: 10px;
+  height: 7px;
+  margin-top: 15px;
+  margin-left: auto;
 }
 
 #icon-down2 {
-  position: relative;
-  left: 12%;
-  top: 0;
+  width: 10px;
+  height: 7px;
+  margin-top: 15px;
+  margin-left: auto;
 }
 
 #icon-down3 {
-  position: absolute;
-  left: 0;
-  top: 0;
+  width: 10px;
+  height: 7px;
+  margin-top: 15px;
+  margin-left: auto;
 }
 
 #icon-down4 {
-  position: relative;
-  left: 12%;
-  top: 0;
+  width: 10px;
+  height: 7px;
+  margin-top: 15px;
+  margin-left: auto;
 }
 
 #icon-down5 {
-  position: relative;
-  left: 12%;
-  top: 0;
+  width: 10px;
+  height: 7px;
+  margin-top: 15px;
+  margin-left: auto;
 }
 
 hr {
   color: rgba(0, 0, 0, 10%);
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
 /* Text Styles */
