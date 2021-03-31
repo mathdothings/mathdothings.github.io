@@ -1,154 +1,156 @@
 @import "colors.css";
 
-.bg {
-  background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
-  height: 100vh;
-}
+@media screen and (min-width: 360px) {
+  .bg {
+    background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+    height: 100vh;
+  }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-size: var(--base-font-size);
-  font-family: 'Kumbh Sans', sans-serif;
-  color: rgba(0 , 0, 0, 70%);
-}
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--base-font-size);
+    font-family: 'Kumbh Sans', sans-serif;
+    color: rgba(0, 0, 0, 70%);
+  }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 80px;
-}
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+  }
 
-.content-container {
-  background-color: white;
-  width: 85%;
-  height: auto;
-  border-radius: 20px;
-}
+  .content-container {
+    background-color: white;
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+  }
 
-#woman-illustration {
-  margin-top: -51%;
-  margin-left: -7%;
-}
+  #woman-illustration {
+    margin-top: -51%;
+    margin-left: -7%;
+  }
 
-#bg-illustration {
-  margin-top: -30%;
-  margin-left: 3%;
-}
+  #bg-illustration {
+    margin-top: -35%;
+    margin-left: 3%;
+  }
 
-#question1 {
-  display: flex;
-  justify-content: space-between;
-}
+  #question1 {
+    display: flex;
+    justify-content: space-between;
+  }
 
-#question2 {
-  display: flex;
-  justify-content: space-between;
-}
+  #question2 {
+    display: flex;
+    justify-content: space-between;
+  }
 
-#question3 {
-  display: flex;
-  justify-content: space-between;
-}
+  #question3 {
+    display: flex;
+    justify-content: space-between;
+  }
 
-#question4 {
-  display: flex;
-  justify-content: space-between;
-}
+  #question4 {
+    display: flex;
+    justify-content: space-between;
+  }
 
-#question5 {
-  display: flex;
-  justify-content: space-between;
-}
+  #question5 {
+    display: flex;
+    justify-content: space-between;
+  }
 
-#answer1 {
-  display: none;
-}
+  #answer1 {
+    display: none;
+  }
 
-#answer2 {
-  display: none;
-}
+  #answer2 {
+    display: none;
+  }
 
-#answer3 {
-  display: none;
-}
+  #answer3 {
+    display: none;
+  }
 
-#answer4 {
-  display: none;
-}
+  #answer4 {
+    display: none;
+  }
 
-#answer5 {
-  display: none;
-}
+  #answer5 {
+    display: none;
+  }
 
-#icon-down1 {
-  width: 10px;
-  height: 7px;
-  margin-top: 15px;
-  margin-left: auto;
-}
+  #icon-down1 {
+    width: 10px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
 
-#icon-down2 {
-  width: 10px;
-  height: 7px;
-  margin-top: 15px;
-  margin-left: auto;
-}
+  #icon-down2 {
+    width: 10px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
 
-#icon-down3 {
-  width: 10px;
-  height: 7px;
-  margin-top: 15px;
-  margin-left: auto;
-}
+  #icon-down3 {
+    width: 10px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
 
-#icon-down4 {
-  width: 10px;
-  height: 7px;
-  margin-top: 15px;
-  margin-left: auto;
-}
+  #icon-down4 {
+    width: 10px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
 
-#icon-down5 {
-  width: 10px;
-  height: 7px;
-  margin-top: 15px;
-  margin-left: auto;
-}
+  #icon-down5 {
+    width: 10px;
+    height: 7px;
+    margin-top: 15px;
+    margin-left: auto;
+  }
 
-hr {
-  color: rgba(0, 0, 0, 10%);
-  margin: 3% 0;
-}
+  hr {
+    color: rgba(0, 0, 0, 10%);
+    margin: 3% 0;
+  }
 
-/* Text Styles */
-.text-center {
-  text-align: center;
-}
+  /* Text Styles */
+  .text-center {
+    text-align: center;
+  }
 
-.fw-normal {
-  font-weight: var(--fw-normal);
-}
+  .fw-normal {
+    font-weight: var(--fw-normal);
+  }
 
-.fw-bold {
-  font-weight: var(--fw-bold);
-}
+  .fw-bold {
+    font-weight: var(--fw-bold);
+  }
 
-.card {
-  padding: 2em;
-}
+  .card {
+    padding: 2em;
+  }
 
-.attribution {
-  padding-top: 1.5em;
-  line-height: 1.7em;
-}
+  .attribution {
+    padding-top: 1.5em;
+    line-height: 1.7em;
+  }
 
-p {
-  font-size: 1em;
-}
+  p {
+    font-size: 1em;
+  }
 
-h2 {
-  font-size: 3em;
-  color: black;
+  h2 {
+    font-size: 3em;
+    color: black;
+  }
 }
