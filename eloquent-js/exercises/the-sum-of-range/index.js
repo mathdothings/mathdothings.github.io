@@ -7,7 +7,6 @@ function range (start, end, step = 1) {
       }
 
       return array;
-
     }
   }
 
@@ -22,4 +21,13 @@ function range (start, end, step = 1) {
   }
 }
 
-console.log(range(5, 2, -1));
+function sum(givenArray) {
+  let sum = 0;
+  for (let x = 0; x < givenArray.length; x++) {
+    sum += givenArray[x];
+  }
+
+  return sum;
+}
+
+console.log(sum(range(1, 3)));
