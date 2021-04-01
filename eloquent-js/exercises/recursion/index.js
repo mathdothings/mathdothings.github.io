@@ -7,4 +7,4 @@ function isEven(n) {
   }
 }
 
-console.log(isEven(-15));
+console.log(isEven(-15)); // result: false
