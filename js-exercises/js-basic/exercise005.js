@@ -1,8 +1,16 @@
-let originalWord = 'w3resource';
-let reversedWord = "";
+function rotateWord() {
+  let string = document.getElementById('target');
+  let reversedWord = '';
 
-for (let n = originalWord.length - 1; n <= 0; n--) {
-  reversedWord += originalWord[n];
+  for (let letter = string.length - 1; letter >= 0; letter--) {
+    reversedWord += string.substring(letter, letter + 1);
+  }
+
+  document.getElementById('target').innerHTML = reversedWord;
 }
+// ECROUSER3W
 
-console.log(reversedWord);
+function changeName() {
+  let word = document.getElementById('target');
+  word.innerHTML = "mathdothings";
+}
