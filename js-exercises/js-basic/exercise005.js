@@ -1,11 +1,13 @@
-function rotateWord() {
-  let string = document.getElementById('target').textContent;
-  let rotatedWord = '';
 
-  for (let letter = string.length - 1; letter >= 0; letter--) {
-    rotatedWord += string.substring(letter, letter + 1);
+function rotateWord(id) {
+  let word = document.getElementById(id).textContent;
+  result = '';
+
+  for (let n = word.length - 1; n >= 0;  n--) {
+    result += word[n];
   }
 
-  document.getElementById('target').textContent = rotatedWord;
+  document.getElementById('target').innerHTML = result;
 }
-// ECROUSER3W
+
+setInterval(rotateWord, 1);
