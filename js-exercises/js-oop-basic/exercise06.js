@@ -17,10 +17,12 @@ Array.prototype.bubbleSortAlg = function () {
 
     if (sortedArray.length === 0) {
       sortedArray.push(lowest);
+      this.splice(this.indexOf(lowest), 1);
     }
     else {
-      if (sortedArray.indexOf(lowest) !== -1) {
+      if (sortedArray.indexOf(lowest) === -1) {
         sortedArray.push(lowest);
+        this.splice(this.indexOf(lowest), 1);
       }
     }
 
