@@ -5,21 +5,22 @@
 class Circle {
   constructor(diameter) {
     this.diameter = diameter;
+    this.radius = diameter / 2;
   }
 
   Area() {
     // return object's area
-    let result = Math.PI * (this.diameter / 2);
-    return result.toFixed(2);
+    this.result = Math.PI * this.radius ** 2;
+    return this.result.toFixed(2);
   }
 
   Perimeter() {
     // return object's perimeter
-    let result = Math.PI * 2 * (this.diameter / 2);
-    return result.toFixed(2);
+    this.result = Math.PI * 2 * this.radius;
+    return this.result.toFixed(2);
   }
 }
 
-let myCircle = new Circle(5);
+let myCircle = new Circle(3);
 console.log('Area: ' + myCircle.Area());
 console.log('Perimeter: ' + myCircle.Perimeter());
