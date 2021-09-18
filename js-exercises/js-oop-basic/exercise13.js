@@ -15,8 +15,6 @@ class Student {
 
 let myStd = new Student("math", 28);
 
-
-
 function getAllKeys(obj) {
     if (!obj.isObject(obj)) return [];
     let keys = [];
