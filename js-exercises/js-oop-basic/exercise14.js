@@ -6,7 +6,13 @@ let myObj = {
     height: "1.58m"
 };
 
+function isObject(obj) {
+    let type = typeof obj;
+    return type === 'function' || type === 'object';
+}
+
 function getKeys(obj) {
+    if (!isObject(obj)) return [];
     let keys = [];
     for (let key in obj) {
        keys.push(key);
@@ -26,3 +32,4 @@ function getValues(obj) {
 }
 
 console.log(getValues(myObj)); // => [ 10, '28 years old', '1.58m' ]
+console.log(getValues(123)); // => []
