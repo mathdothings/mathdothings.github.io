@@ -25,4 +25,4 @@ function getValues(obj) {
     return values;
 }
 
-console.log(getValues(myObj)); // => [ 10, '28 years', '1.58m' ]
+console.log(getValues(myObj)); // => [ 10, '28 years old', '1.58m' ]
